@@ -1,0 +1,51 @@
+:root {
+  --bs_primary: #1c1c21;
+  --bs_secondary: #282828;
+  --bs_primary_active: #282828;
+  --bs_secondary_active: hsl(0, 0%, 13%);
+  --bs_btn_white: #ffffff;
+}
+
+.udy_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-family: var(--theme_font_family);
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 0.35rem;
+  border: none;
+  font-size: 0.8rem;
+  line-height: 1.125rem;
+  padding: 0.5rem 1.5rem;
+}
+
+/* Button Colors */
+
+.udy_btn_primary {
+  background-color: var(--bs_primary) !important;
+  border: 2px solid var(--bs_primary) !important;
+  color: #fff !important;
+}
+
+.udy_btn_primary:hover {
+  background-color: var(--bs_primary_active) !important;
+  border: 2px solid var(--bs_primary_active) !important;
+  color: #fff !important;
+}
+
+.mi_btn_secondary {
+  background-color: var(--bs_secondary) !important;
+  border: 2px solid var(--bs_secondary) !important;
+  color: #fff !important;
+}
+
+.mi_btn_secondary:hover {
+  background-color: var(--bs_secondary_active) !important;
+  border: 2px solid var(--bs_secondary_active) !important;
+  color: #fff !important;
+}

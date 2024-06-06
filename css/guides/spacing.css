@@ -1,0 +1,36 @@
+.udy_section_space {
+  padding: 4.5rem 0;
+}
+.udy_section_top_space {
+  padding-top: 4.5rem;
+}
+
+.udy_section_bottom_space {
+  padding-bottom: 4.5rem;
+}
+
+@media screen and (max-width: 786px) {
+  .udy_section_space {
+    padding: 2.5rem 0;
+  }
+  .udy_section_top_space {
+    padding-top: 2.5rem;
+  }
+
+  .udy_section_bottom_space {
+    padding-bottom: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .udy_section_space {
+    padding: 2.25rem 0;
+  }
+  .udy_section_top_space {
+    padding-top: 2.25rem;
+  }
+
+  .udy_section_bottom_space {
+    padding-bottom: 2.25rem;
+  }
+}

@@ -1,0 +1,34 @@
+:root {
+  --title_fs: 2rem;
+  --subtitle_fs: 1.75rem;
+  --heading_fs: 1.5rem;
+  --subheading_fs: 1.25rem;
+  --body_fs: 1rem;
+  --note_fs: 0.925rem;
+  --small_fs: 0.875rem;
+  --tiny_fs: 0.725rem;
+}
+
+@media screen and (max-width: 786px) {
+  :root {
+    --title_fs: 1.5rem;
+    --subtitle_fs: 1.35rem;
+    --heading_fs: 1.25rem;
+    --subheading_fs: 1.125rem;
+    --body_fs: 1rem;
+    --small_fs: 0.85rem;
+    --tiny_fs: 0.65rem;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  :root {
+    --title_fs: 1.5rem;
+    --subtitle_fs: 1.35rem;
+    --heading_fs: 1.25rem;
+    --subheading_fs: 1.125rem;
+    --body_fs: 1rem;
+    --small_fs: 0.85rem;
+    --tiny_fs: 0.65rem;
+  }
+}

@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  --theme_font_family: "Manrope", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--theme_font_family);
+  background-color: var(--primary_color);
+}
+
+.udy_side_padding {
+  padding: 0 2rem;
+}
+
+.udy__page_section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #1c1c21;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #1c1c21;
+}
+
+.udy_page_container {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .udy_page_container {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .udy_page_container {
+    max-width: 786px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .udy_page_container {
+    max-width: 640px;
+  }
+  .udy_side_padding {
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .udy_page_container {
+    max-width: 586px;
+  }
+}
+
+@media screen and (max-width: 586px) {
+  .udy_page_container {
+    max-width: 475px;
+  }
+  .udy_side_padding {
+    padding: 0 0rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .udy_page_container {
+    max-width: 420px;
+  }
+}

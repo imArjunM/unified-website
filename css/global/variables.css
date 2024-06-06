@@ -1,0 +1,11 @@
+:root {
+  --primary_color: #070708;
+  --secondary_color: #1c1c21;
+  --theme_primary_color: #f8f5f2;
+  --theme_secondary_color: #ffd9de;
+  --white_color: #fff;
+  --black_color: #1b1b1b;
+  --text-gray: #afb0b6;
+
+  --animate: all 0.3s ease-in-out;
+}

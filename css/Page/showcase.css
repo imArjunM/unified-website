@@ -1,0 +1,120 @@
+.udy__showcase {
+  padding: 5rem 0;
+}
+.udy__showcase_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  position: relative;
+}
+.showcase__vector_design {
+  width: 17rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.udy__section_titles {
+  width: 100%;
+  max-width: 32.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.udy__subheading_fs {
+  font-size: var(--note_fs);
+  font-weight: 500;
+  color: #62646c;
+  text-transform: uppercase;
+}
+.udy__title_fs {
+  font-size: var(--title_fs);
+  font-weight: 600;
+  color: var(--white_color);
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.udy__showcase_content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.udy__showcase_headline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.udy__heading_fs {
+  font-size: var(--subtitle_fs);
+  font-weight: 600;
+  color: var(--white_color);
+  text-transform: uppercase;
+}
+
+.udy__redirection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 2.5rem;
+  background-color: #4a2ced;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+.udy__redirection > i {
+  transform: rotate(-45deg);
+  color: var(--white_color);
+  font-size: var(--subheading_fs);
+
+  transition: all 0.3s ease-in-out;
+}
+
+.udy__redirection:hover > i {
+  transform: rotate(0);
+}
+
+.udy__service_scroller {
+  width: 100%;
+  background-color: #0e0e10;
+  border-top: 1px solid #1c1c21;
+  border-bottom: 1px solid #1c1c21;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+}
+.udy__service_scroll_card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+  padding: 1rem 1rem;
+}
+
+.udy__service_scroll_card > img {
+  width: 1.75rem;
+  object-fit: contain;
+}
+
+.udy__service_scroll_card > p {
+  font-size: var(--note_fs);
+  font-weight: 500;
+  color: #d6d0fb;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.udy__showcase_banner {
+  padding-top: 2rem;
+}
+
+.udy__showcase_banner_container > img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
